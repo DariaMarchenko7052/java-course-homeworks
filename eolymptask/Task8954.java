@@ -1,7 +1,7 @@
 import java.util.*;
 
-public class Main {
-    public static void main(String[] args) {
+class Task8954 {
+    public static void run() {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();

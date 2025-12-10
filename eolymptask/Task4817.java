@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class Task4817 {
+    public static void run() {
         Scanner sc = new Scanner(System.in);
 
         while (sc.hasNextInt()) {
