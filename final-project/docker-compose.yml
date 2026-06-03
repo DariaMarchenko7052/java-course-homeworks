@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mindzone-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mindzone-app:1.0
+    container_name: mindzone-backend
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
